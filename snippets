@@ -1,0 +1,26 @@
+#snippet to print exception line number in python
+try:
+#some code
+pass
+except Exception as ex3:
+            exc_type, exc_obj, exc_tb = sys.exc_info()
+            self._logmessage("decode_error_message " + str(exc_tb.tb_lineno))        
+            
+#snippet to trace the line number in python
+# taken from http://www.dalkescientific.com/writings/diary/archive/2005/04/20/tracing_python_code.html
+import sys
+def traceit(frame, event, arg):
+    if event == "line":
+        lineno = frame.f_lineno
+        print "line", lineno
+
+    return traceit
+def main():
+    print "In main"
+    for i in range(5):
+        print i, i*3
+    print "Done."
+    
+
+sys.settrace(traceit)
+main()
