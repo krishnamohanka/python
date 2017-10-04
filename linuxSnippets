@@ -1,0 +1,9 @@
+//linux
+
+//to search defunct process 
+ps -ef|grep defunct
+
+// to kill defunct process 
+ps -ef | grep defunct | grep -v grep | cut -b8-20 | xargs kill -9
+
+
