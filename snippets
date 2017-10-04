@@ -27,3 +27,22 @@ main()
 
 #Favouite genetic algorithm introduction
 #https://www.codeproject.com/Articles/1104747/Introduction-to-Genetic-Algorithms-with-Python-Hel
+#https://lethain.com/genetic-algorithms-cool-name-damn-simple/
+
+#snippet for timit decorator
+def timeit(method):
+
+    def timed(*args, **kw):
+        ts = time.time()
+        result = method(*args, **kw)
+        te = time.time()
+
+        print '%r (%r, %r) %2.2f sec' % \
+              (method.__name__, args, kw, te-ts)
+        return result
+
+    return timed
+
+@timeit
+def test1():
+      j = [i for i in range(12345678)]
