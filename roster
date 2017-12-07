@@ -1,1 +1,65 @@
+shifts = ['M','I','A','N','E','G']
+emp = [1,2,3,4,5,6,7,8,9,10]
+day = ['MON','TUE','WED','THU','FRI','SAT','SUN']
+
+wo =[
+['off','off',0,0,0,0,0],
+[0,'off','off',0,0,0,0],
+[0,0,'off','off',0,0,0],
+[0,0,0,'off','off',0,0],
+[0,0,0,0,'off','off',0],
+[0,0,0,0,0,'off','off'],
+['off',0,0,0,0,0,'off']
+]
+
+consecutive = ["MI","IA","AN","EN","NM"]
+
+allcomb=[]
+wocomb1=[]
+filtrwocomb2=[]
+
+def swap(a, i, j):
+    a[i], a[j] = a[j], a[i]
+
+def permute(a, i, n):
+    if i == n:
+        #print(a)
+        allcomb.append(a)
+        return a
+    for j in range(i, n+1):
+        swap(a, i, j)
+        permute(a, i+1, n)
+        swap(a, i, j)  # backtrack
+
+permute(shifts, 0, 5)
+print allcomb
+
+
+for comb in allcomb:
+    #print comb
+    for i in range(7):
+        combL = list(comb)
+        combL.insert(i,'off')
+        if(i==6):
+            combL.insert(0,'off')
+        else:
+            combL.insert(i+1, 'off')
+        wocomb1.append(combL)
+print wocomb1
+print wocomb1.__len__()
+
+for comb in wocomb1:
+    no_con= True
+    scomb="".join(comb)
+    for con in consecutive:
+        if(scomb.find(con) > -1):
+            no_con = False
+            break
+    if(no_con):
+        filtrwocomb2.append(comb)
+
+print filtrwocomb2
+
+
+
 
