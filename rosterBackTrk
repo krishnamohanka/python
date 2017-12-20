@@ -1,0 +1,120 @@
+from itertools import *
+from copy import copy
+
+import pprint
+shifts = ['M','I','A','N','E','G']
+emp = [1,2,3,4,5,6,7,8,9,10]
+day = ['MON','TUE','WED','THU','FRI','SAT','SUN']
+
+wo =[
+['off','off',0,0,0,0,0],
+[0,'off','off',0,0,0,0],
+[0,0,'off','off',0,0,0],
+[0,0,0,'off','off',0,0],
+[0,0,0,0,'off','off',0],
+[0,0,0,0,0,'off','off'],
+['off',0,0,0,0,0,'off']
+]
+
+consecutive = ["MI","IA","AN","EN","NM","MA","IN"]
+
+
+
+wocomb1=[]
+filtrwocomb2=[]
+
+import itertools
+allcomb = itertools.permutations(shifts, 5)
+
+
+#print allcomb
+# print allcomb.__len__()
+#
+#
+for comb in allcomb:
+    #print comb
+    for i in range(7):
+        combL = list(comb)
+        combL.insert(i,'O')
+        if(i==6):
+            combL.insert(0,'O')
+        else:
+            combL.insert(i+1, 'O')
+        wocomb1.append(combL)
+#print wocomb1
+#print wocomb1.__len__()
+
+for comb in wocomb1:
+    no_con= True
+    scomb="".join(comb)
+    for con in consecutive:
+        if(scomb.find(con) > -1):
+            no_con = False
+            break
+    if(no_con):
+        filtrwocomb2.append(comb)
+        no_con=True
+
+print (filtrwocomb2)
+print (filtrwocomb2.__len__())
+
+
+
+geneset= filtrwocomb2
+
+def get_fitness(schedule):
+    fitness = 0
+    trans=zip(*schedule)
+    for r in trans:
+        for c in r:
+            if (c <> 'O'):
+                if (list(r).count(c)>=2 and list(r).count(c)<=3):
+                    fitness=fitness+1
+                else:
+                    break
+            if (c=='O'):
+                if (list(r).count(c) == 2  or list(r).count(c) == 3):
+                    fitness=fitness+1
+                else:
+                    break
+        if fitness < 9 :
+            break
+
+    return fitness
+
+
+def is_valid(schedule):
+    valid_no= len(schedule*7)
+    if(get_fitness(schedule)== valid_no):
+        return True
+    else:
+        return False
+
+
+def place_row(rownum,empLen,schedule):
+    if(rownum == empLen):
+        print schedule
+        return True
+    else:
+        schedule1 = copy(schedule)
+        successful = False
+
+    for i in range(len(filtrwocomb2)):
+        schedule1.append(filtrwocomb2[i])
+        if(is_valid(schedule1)):
+            schedule.append(filtrwocomb2[i])
+            place_row(rownum+1,5,schedule)
+        else:
+            schedule1.remove(filtrwocomb2[i])
+
+
+place_row(1,5,filtrwocomb2[0])
+
+
+
+
+
+
+
+
+
