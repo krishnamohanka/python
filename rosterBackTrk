@@ -108,9 +108,11 @@ def place_row(rownum,empLen,schedule):
             schedule1.remove(filtrwocomb2[i])
 
 
-place_row(1,5,filtrwocomb2[0])
 
 
+a=[]
+a.append(filtrwocomb2[i])
+place_row(1,5,a)
 
 
 
