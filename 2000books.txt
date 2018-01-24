@@ -1064,3 +1064,22 @@
 
 
 </body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+from bs4 import BeautifulSoup
+url = r"C:\Desktop\test.html"
+page = open(url)
+soup = BeautifulSoup(page.read())
+mydivs = soup.find_all("div", {"class": "videoCard ng-scope"})
+myTitle =  {d.find("p", {"class": "ng-binding"}).text : d.find("input")['value'] for d in mydivs if d.find("paper-icon-button", {"title": "Error"})}
