@@ -13,7 +13,7 @@ driver.get("https://kite3.zerodha.com/")
 usrInput=driver.find_elements_by_tag_name("input")[0]
 pwdInput=driver.find_elements_by_tag_name("input")[1]
 
-usrInput.send_keys("YK8879")
+usrInput.send_keys("")
 sleep(1)
 pwdInput.send_keys("")
 driver.find_element_by_tag_name("button").click()
