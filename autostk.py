@@ -1,38 +1,68 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
 from time import sleep
-driver = webdriver.Chrome(r"C:\Users\NG6EADA\Downloads\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(r"C:\Users\krsna\Downloads\chromedriver_win32\chromedriver.exe")
 
-# while(1):
-#     driver.get("https://www.nseindia.com/live_market/dynaContent/live_watch/equities_stock_watch.htm")
-#     trs = driver.find_elements_by_xpath("//tr")
-#     for tr in trs:
-#         tds = tr.find_elements_by_tag_name("td")
-#         try:
-#             print tds[0].text+" "+tds[6].text
-#         except:
-#             pass
-#     sleep(5)
+driver.get("https://kite3.zerodha.com/")
 
-driver.get("http://www.moneycontrol.com/terminal/index_v1.php?index=31")
-trs= driver.find_elements_by_xpath("//div[3]/table/tbody/tr")
-tds=trs[0].find_elements_by_tag_name("td")
+usrInput=driver.find_elements_by_tag_name("input")[0]
+pwdInput=driver.find_elements_by_tag_name("input")[1]
 
-prevValue = 0
+usrInput.send_keys("YK8879")
+sleep(1)
+pwdInput.send_keys("kitch123")
+driver.find_element_by_tag_name("button").click()
+
+delay = 15#seconds
+try:
+    myElem = WebDriverWait(driver, delay).until(EC.text_to_be_present_in_element((By.TAG_NAME,'h2'),'Security questions'))
+    print ("Page is ready!")
+except TimeoutException:
+    print ("Loading took too much time!")
+
+qdict ={"car":"blue","vegetable":"onion","birthplace":"kalpetta","email":"yahoo"}
+
+q1=driver.find_elements_by_tag_name("label")[0]
+q2=driver.find_elements_by_tag_name("label")[1]
+
+a1=""
+a2=""
+for k in qdict.keys():
+    if str(q1.text).find(k)>1:
+        a1=qdict[k]
+        break
+    else:
+        a1="yellow"
+
+for k in qdict.keys():
+    if str(q2.text).find(k)>1:
+        a2=qdict[k]
+        break
+    else:
+        a2="yellow"
+
+driver.find_elements_by_tag_name("input")[0].send_keys(a1)
+driver.find_elements_by_tag_name("input")[1].send_keys(a2)
+sleep(1)
+driver.find_element_by_tag_name("button").click()
+
+try:
+    myElem = WebDriverWait(driver, delay).until(EC.text_to_be_present_in_element((By.CLASS_NAME,'nickname'),'Konathalvalap'))
+    print ("Page is ready!")
+except TimeoutException:
+    print ("Loading took too much time!")
+
+mrketwatchlist = driver.find_element_by_xpath("//div[@class='vddl-list list-flat']")
+
+
 while(1):
-    name= tds[0].text
-    value= tds[1].text
-
-    if(not value == prevValue ):
-        print value
-        prevValue = value;
-    sleep(1)
-
-
-
-#print (elem)
-# elem.clear()
-# elem.send_keys("pycon")
-# elem.send_keys(Keys.RETURN)
-driver.close()
+    for itm in mrketwatchlist.find_elements_by_class_name("info"):
+        name = itm.text.split('\n')[0]
+        ltp = itm.text.split('\n')[1].split('%')[1]
+        print (name + ", "+ltp)
+        sleep(2)
