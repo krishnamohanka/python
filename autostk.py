@@ -15,7 +15,7 @@ pwdInput=driver.find_elements_by_tag_name("input")[1]
 
 usrInput.send_keys("YK8879")
 sleep(1)
-pwdInput.send_keys("kitch123")
+pwdInput.send_keys("")
 driver.find_element_by_tag_name("button").click()
 
 delay = 15#seconds
@@ -25,7 +25,7 @@ try:
 except TimeoutException:
     print ("Loading took too much time!")
 
-qdict ={"car":"blue","vegetable":"onion","birthplace":"kalpetta","email":"yahoo"}
+qdict ={"car":"","vegetable":"","birthplace":"","email":""}
 
 q1=driver.find_elements_by_tag_name("label")[0]
 q2=driver.find_elements_by_tag_name("label")[1]
