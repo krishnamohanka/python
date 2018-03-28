@@ -3,12 +3,12 @@ import requests
 from kiteconnect import KiteConnect
 from kiteconnect import WebSocket
 
-r_proxy = {'http': r'EU\NG6EADA:Password123%25@fr0-proxylan-vip.eu.airbus.corp:3128',
-           'https': r'EU\NG6EADA:Password123%25@fr0-proxylan-vip.eu.airbus.corp:3128' }
+r_proxy = {'http': r'',
+           'https': r'' }
 
 
 proxy = {
-					'host': 'fr0-proxylan-vip.eu.airbus.corpfr0-proxylan-vip.eu.airbus.corp',
+					'host': '',
 					'port': 3000,
 					'auth': ('username', 'password')
 				}
