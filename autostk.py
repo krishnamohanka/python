@@ -27,7 +27,7 @@ class ZerodhaSelenium:
 
         usrInput.send_keys("YK8879")
         sleep(1)
-        pwdInput.send_keys("kitch123")
+        pwdInput.send_keys("")
         driver.find_element_by_tag_name("button").click()
         delay = 15#seconds
         try:
