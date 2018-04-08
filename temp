@@ -1,0 +1,40 @@
+$which python
+/usr/bin/python
+So your shebang will look like:
+
+#!/usr/bin/python
+
+
+
+Use the shebang line in your python script. Make it executable using the command,
+
+chmod +x test.py
+Use no hangup to run a program in background even if you close your terminal.
+
+nohup /path/to/test.py &
+Do not forget to use & to put it in background.
+
+To see the process again, use in terminal,
+
+ps ax | grep test.py
+
+#__________________________________________________________________________________
+
+# Place an order
+
+placeOrder("BUY","INFY",100,200)
+
+def placeOrder(tr_type,symbol,qty,prc)
+try:
+    order_id = kite.order_place(tradingsymbol=symbol,
+                                quantity=qty,
+                                price = prc,
+                                transaction_type=tr_type, #"BUY"/"SELL"
+                                order_type="LIMIT",
+                                validity = "DAY",
+                                exchange="NSE",
+                                product="MIS")
+
+    logging.info("Order placed. ID is: {}".format(order_id))
+except Exception as e:
+    logging.info("Order placement failed: {}".format(e.message))
