@@ -1,20 +1,3 @@
-# import pymongo
-# from pymongo import MongoClient
-# client = pymongo.MongoClient()
-# db = client.test_database
-# collection = db.test_collection
-# import datetime
-# post = {"author": "Mike",
-#          "text": "My first blog post!",
-#          "tags": ["mongodb", "python", "pymongo"],
-#          "date": datetime.datetime.utcnow()}
-#
-# posts= db.posts
-#
-# post_id= posts.insert_one(post).inserted_id
-# db.collection_names(include_system_collections=False)
-#
-
 from sshtunnel import SSHTunnelForwarder
 import pymongo
 import pprint
