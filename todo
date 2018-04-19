@@ -1,5 +1,8 @@
-1.Use ADX to check trend direction
-    Highest +DM stk for long
-    Highets -DM stk for short
-2.Use HekinAshi immediate second candle open for sell or shortbuy based on bullish or bearish.to avoid loss
-3.Try PSAR to predict trend reversal buy or sell 
+
+Strategies to try:
+    1.Buy and sell with small profit
+    2.short sell double qty if on loss at buy / shortbuy double qty if on loss at sell
+    
+If at real time running on high loss:
+    1.Backtest with ADX > 25
+    
