@@ -1,5 +1,71 @@
+(Bloomberg Financial) Larry Connors, Cesar Alvarez, Connors Research-How Markets Really Work_ Quantitative Guide to Stock Market Behavior-Wiley (2012).pdf
+
+(Connors Research Trading Strategy Series) Larry Connors, Matt Radtke, Connors Research-Trading Stocks and Options with Moving Averages - A Quantified Approach-Connors Research (2013).pdf
+
+(For Dummies (Health & Fitness)) Kellyann Petrucci, Patrick Flynn-Fast Diets For Dummies-For Dummies (2013).pdf
+
+(Wiley Trading, 90) Steve Palmquist, Oliver L. Velez-Money-Making Candlestick Patterns_ Backtested for Proven Results-Wiley (2008).pdf
+
+Accomazzo Anthony, Murray Nathaniel, Lerner Ari-Fullstack React_ The Complete Guide to ReactJS and Friends-Fullstack.io (2017).pdf
+algo.pdf
+
+Aur‚lien G‚ron-Hands-On Machine Learning with Scikit-Learn and TensorFlow Concepts, Tools, and Techniques to Build Intelligent Systems-O'Reilly Media (2017).pdf
+
+Daniel Y. Chen-Pandas for Everyone.  Python Data Analysis-Addison-Wesley Professional (2017).pdf
+
+Farin, Gerald E._ Hansford, Dianne-Practical linear algebra _ a geometry toolbox-CRC Press (2014).pdf
+
+Gareth Dwyer-Flask By Example_ Unleash the full potential of the Flask web framework by creating simple yet powerful web applications-Packt Publishing (2016).pdf
+
+Gavin Hackeling-Mastering Machine Learning with scikit-learn-Packt Publishing (2014).pdf
+
+Ivan Idris - Learning NumPy Array_ Supercharge your scientific Python computations by understanding how to use the NumPy library effectively (2014, Packt Publishing).pdf
+
+Ivan Idris - NumPy Beginners Guide (2015, Packt Publishing).pdf
+
+Kurt W. Smith-Cython_ A Guide for Python Programmers-O'Reilly Media (2015).pdf
+
+Larry Connors, Cesar Alvarez-Short Term Trading Strategies That Work  -TradingMarkets (2008).pdf
+
+Linux-Command-Line-and-Shell-Scripting-Bible.pdf
+
+Luck-Chance-and-Coincidence-The-Mysterious-Power-of-Luck-And-How-to-Make-Yours-Better.pdf
+
+Malcolm Gladwell-Blink_ The Power of Thinking Without Thinking-Back Bay Books (2007).pdf
+
+Mark Hammond, Andy Robinson-Python Programming on Win32-O'Reilly Media (2000).pdf
+
+Mastering-Linux-Shell-Scripting-Master-the-complexities-of-Bash-shell-scripting-and-unlock-the-power-of-shell-for-your-enterprise.pdf
+
+Michael Heydt-Mastering pandas for Finance_ Master pandas, an open source Python Data Analysis Library, for financial data analysis-Packt Publishing (2015).pdf
+
+Miller B.N., Ranum D.L.-Problem Solving with Algorithms and Data Structures Using Python. Release 3.0.pdf
+
+Oliver L. Velez, Paul Lange-Strategies for Profiting on Every Trade_ Simple Lessons for Mastering the Market-Wiley (2007).pdf
+
+OpenCV-3-x-with-Python-By-Example.pdf
+
+OpenCV-with-Python-Blueprints.pdf
+
+Philip Herron-Learning Cython Programming-Packt Publishing (2016).pdf
+
+Prabhat Choudhary-A Practical Approach to Linear Algebra-Oxford Book Company (2010).pdf
+
+Practical-Python-and-OpenCV.pdf
+
+Sandeep Nagar - Introduction to Octave for Engineers and Scientists (2018, Apress).pdf
+
+Sven A. Robbestad-ReactJS Blueprints-Packt Publishing (2016).pdf
+
+Wes McKinney-Python for Data Analysis. Data Wrangling with Pandas, NumPy, and IPython-O'Reilly (2017).pdf
+
+Wicked-Cool-Shell-Scripts-101-Scripts-for-Linux-OS-X-and-UNIX-Systems.pdf
+
+Yuxing Yan-Python for Finance-Packt Publishing (2017).pdf
+
+
+
 (For Dummies_ Computers) John Paul Mueller, Luca Massaron-Algorithms for Dummies-Wiley (2017).pdf
-(For Dummies_ Computer_Tech) John Paul Mueller, Luca Massaron-Algorithms For Dummies-Wiley (2017).azw3
 (Prentice Hall Open Source Software Development Series) Mark Summerfield-Advanced Qt Programming_ Creating Great Software with C++ and Qt 4-Prentice Hall (2010).pdf
 (Prentice Hall open source software development series) Mark Summerfield-Rapid GUI programming with Python and Qt_ the definitive guide to PyQt programming-Prentice Hall (2008).pdf
 (Studies in Computational Intelligence 666) Michael Mutingi, Charles Mbohwa (auth.)-Grouping Genetic Algorithms_ Advances and Applications-Springer International Publishing (2017).pdf
@@ -14,31 +80,18 @@ Ali Almossawi-Bad Choices_ How Algorithms Can Help You Think Smarter and Live Ha
 Amit Saha-Doing Math with Python_ Use Programming to Explore Algebra, Statistics, Calculus, and More!-No Starch Press (2015).pdf
 Andrew 'bunnie' Huang-The Hardware Hacker_ Adventures in Making and Breaking Hardware-No Starch Press (2017).epub
 Arun Tigeraniya Python Unlocked Become more fluent in Python - learn strategies and techniques for smart and high-performance Python programming.pdf
-autoit-v3.zip
+
 Bastian Ballmann (auth.)-Understanding Network Hacks_ Attack and Defense with Python-Springer-Verlag Berlin Heidelberg (2015).pdf
-Binary.zip
-books.txt
 Brian Overland-C++ Without Fear_ A Beginner's Guide That Makes You Feel Smart-Prentice Hall (2015).pdf
 Brian Steele, John Chandler, Swarna Reddy-Algorithms for Data Science-Springer (2017).pdf
-chrome32_49.0.2623.75.exe
 Clinton Sheppard-Genetic Algorithms with Python (2016).pdf
-codeblocks-16.01-nosetup.zip
-codelite-amd64-11.0.1.7z
-converted.zip
-CorePlus-current.iso
 Dave Taylor and  Brandon Perry-Wicked Cool Shell Scripts_ 101 Scripts for Linux, OS X, and UNIX Systems-No Starch (2017).pdf
-desktop.ini
 development-of-nodemcu.pdf
 Doug Hellmann-The Python Standard Library by Example (Developer's Library)  -Addison-Wesley Professional (2011).pdf
-Downloads - Shortcut (2).lnk
-Downloads - Shortcut.lnk
 D vid Natingga-Data Science Algorithms in a Week-Packt (2017).pdf
 Earnest Wish, Leo-Python System Hacking Essentials-Amazon Digital Services, Inc. (2015).pdf
-eclipse-java-juno-SR2-win32-x86_64.zip
 Editos-How Money Works.  The Facts Visually Explained-DK Publishing (2017).pdf
 Emrah Ayanoglu, Yusuf Aytas, Dotan Nahum-Mastering RabbitMQ_ Master the art of developing message-based applications with RabbitMQ-Packt Publishing (2016).pdf.crdownload
-find-master.zip
-Firefox Installer.exe
 Flesner A.-AutoIt v3_ Your Quick Guide-O'Reilly Media, Inc. (2007).pdf
 Ford-Getting Started with CNC_ Personal Digital Fabrication with Shapeoko and Other Computer-Controlled Routers-Maker Media, Inc (2016).pdf
 F‚lix L¢pez, V¡ctor Romero-Mastering Python Regular Expressions-Packt Publishing - ebooks Account (2014).pdf
@@ -50,29 +103,16 @@ Gopinath Jaganmohan, Venkateshwaran Loganathan-PySide GUI Application Developmen
 gui-inspect-tool-master.zip
 Healey, Christopher Graham-Disk-based algorithms for big data-CRC Press (2017).pdf
 Herman Michael.-Real Python for the Web.pdf
-HTML.py-0.04.zip
-IE6.XP.For.Windows.VirtualBox.zip
-ImmunityDebugger_1_85_setup.exe
 Jan Palach-Parallel Programming with Python-Packt Publishing (2014) (1).pdf
 Jan Palach-Parallel Programming with Python-Packt Publishing (2014).pdf
 Jay Wengrow-A Common-Sense Guide to Data Structures and Algorithms_ Level Up Your Core Programming Skills-Pragmatic Bookshelf (2017).epub
-jd-eclipse-site-1.0.0-RC2.zip
-jd-gui-windows-1.4.0.zip
-jdk-6u45-windows-x64.exe
 Jeff Simon-Hacking  Hacking Practical Guide for Beginners (Hacking With Python)-CreateSpace Independent Publishing Platform (2016).pdf
-jnius-1.1-dev.win32-py2.7.exe
 Joe Minichino, Joseph Howse-Learning OpenCV 3 Computer Vision with Python-Packt Publishing (2015).epub
 Jonathan Bates-Linux Mastery  The Ultimate Linux Operating System and Command Line Mastery-Creat?Space Indep?ndent Publishing Platform (2016).pdf
 Joseph Howse-OpenCV for Secret Agents_ Use OpenCV in six secret projects to augment your home, car, phone, eyesight, and any photo or drawing-Packt Publishing (2015).pdf
 Josh Linkner-Hacking Innovation.  The New Growth Model from the Sinister World of Hackers-Fastpencil Publishing (2017).pdf
-jpype-master.zip
-JPype1-0.6.2-cp27-cp27m-win_amd64.whl
-JPype1-0.6.2-cp36-cp36m-win32.whl
-JPype1-0.6.2.tar.gz
 Justin Seitz-Black Hat Python_ Python Programming for Hackers and Pentesters-No Starch Press (2014).pdf
 Justin Seitz-Gray Hat Python_ Python Programming for Hackers and Reverse Engineers-No Starch Press (2009).pdf
-jython-installer-2.7.0.jar
-jython-standalone-2.7.0.jar
 Loyd Blankenship, Lane Boyd-Make.  Woodworking for Young Makers.  Fun and Easy Do-It-Yourself Projects-Maker Media, Inc (2017).pdf
 Luciano Ramalho Fluent Python.pdf
 Manohar Swamynathan-Mastering Machine Learning with Python in six Steps-Apress (2017).pdf
@@ -83,67 +123,26 @@ Martin Toshev-Learning RabbitMQ_ Build and optimize efficient messaging applicat
 Matheus C. Carvalho-Practical Laboratory Automation_ Made Easy with AutoIt-Wiley-VCH (2016).pdf.crdownload
 Michael Herman-Real Python Part 2_ Web Development with Python.pdf
 Michal Jaworski, Tarek Ziade-Expert Python Programming, 2nd Edition_ Become an ace Python programmer by learning best coding practices and advance-level concepts with Python 3.5-Packt Publishing (2016.pdf
-microcore-linux.gns3a
-mingw-get-setup.exe
-mini.iso
 Nikhil Ketkar-Deep Learning with Python. A Hands-on Introduction-Apress (2017).pdf
 Oliver Kramer-Genetic Algorithm Essentials-Springer (2017).pdf
 Omesh Tickoo, Ravi Iyer (auth.)-Making Sense of Sensors_ End-to-End Algorithms and Infrastructure Design from Wearable-Devices to Data Center-Apress (2017).pdf
-omodoro-master.zip
-openjdk-1.6.0-unofficial-b31-windows-amd64-image.zip
-orzeszek-timer-1.12-portable.zip
-pacparser-python27-1.3.5-win32.zip
-pip-Win_1.8.exe
-portaudio-r1891-build.zip
 Prabhat Choudhary-A Practical Approach to Linear Algebra-Oxford Book Company (2010).pdf
 Prateek Joshi, David Mill n Escriv , Vinicius Godoy-OpenCV By Example-Packt Publishing (2016).pdf
-precompiled-portaudio-windows-master.zip
-processhacker-2.39-bin.zip
-proxyfr (1).pac
-proxyfr.pac
 PS-2-Paper-20-Victor-Suhandi-2014.pdf
-Puri G.M.-Python Scripts for ABAQUS_ Learn by Example.pdf
-Puri G.M.-Python Scripts for ABAQUS_ Learn by Example.zip
-PyAutoIt-0.3.zip
-pycharm-community-2017.2.2.exe
-pyjnius-1.1.1-cp36-cp36m-win32.whl
-PyQt4-4.11.4-cp27-cp27m-win32.whl
-python-2.7.14.msi
-pyzo-4.4.1-win32.exe
-QuickStartGuide-master.zip
-Resume.doc
 Rick van Hattem-Mastering Python-Packt Publishing - ebooks Account (2016).pdf
-robot-plugin.zip
-robotframework-3.0.2.tar.gz
-robotframework-master.zip
-robotframework-ride-1.5.2.1.tar.gz
-robotframework-userguide-latest.zip
-Roster-master.zip
 Schwartz M.-Discover the aREST Framework_ Easily control your Arduino, Raspberry Pi & ESP8266 Projects (+source code).rar
-SciTE4AutoIt3_Portable.zip
 sensors-13-11085-v2.pdf
-simpletable-master.zip
 Sinny Kumari-Linux Shell Scripting Essentials_ Learn shell scripting to solve complex shell-related problems and to efficiently automate your day-to-day tasks-Packt Publishing (2015).pdf
 Stroustrup, Bjarne-Programming_ Principles and Practice Using C++ , Second Edition-Pearson Education_Addison-Wesley Professional (2015).epub
-SumatraPDF-3.0-src.7z
-SumatraPDF-3.1.2.zip
 Sumit Bisht Robot Framework Test Automation.pdf
 T. Trautmann-Arthashastra_ The Science of Wealth_ The Story of Indian Business-Penguin (2012).pdf
-test.html
 Tim Roughgarden-Algorithms Illuminated, Part 1_ The Basics-Soundlikeyourself (2017).pdf
-TinyCore-current.iso
 TJ O'Connor-Violent Python_ A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers-Syngress (2012).pdf
 tomd-master.zip
 Tony Gaddis-Starting out with C++ _ from control structures through objects-Pearson (2015).pdf
-VBoxGuestAdditions_5.1.26.iso
-VCForPython27.msi
 Vineeth G. Nair-Getting Started with Beautiful Soup-Packt Publishing (2014).pdf
-wget-1.11.4-1-bin.zip
 Wing-Kin Sung-Algorithms for Next-Generation Sequencing-CRC (2017).pdf
 Witold Wysota, Lorenz Haas-Game Programming Using QT-Packt Publishing (2016).pdf
-wxPython-4.0.0b2.tar.gz
-wxPython2.7-win32-docs-demos-2.7.1.2.exe
-wxPython2.8-win32-unicode-2.8.12.1-py27.exe
 Yining Shi, Sagar Mohite-Jumpstarting the Arduino 101 - Interacting With a Computer That Learns-Maker Media (2017).pdf
 Yusuf Altintas.-Manufacturing automation _ metal cutting mechanics, machine tool vibrations, and CNC design-Cambridge University Press (2012.).pdf
 [Sigismondo_Boschi,_Gabriele_Santomaggio]_RabbitMQ(b-ok.org).pdf
