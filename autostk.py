@@ -87,7 +87,7 @@ class ZerodhaSelenium:
         #         #     break
 
 if __name__ == '__main__':
-    filename = "C:\Users\NG6E4BC\Documents\DoNotDelete\chromedriver_win32\chromedriver.exe"
+    filename = "C:\Users\Documents\DoNotDelete\chromedriver_win32\chromedriver.exe"
     ZerodhaSelenium(filename)
 
 
