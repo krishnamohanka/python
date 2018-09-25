@@ -70,4 +70,15 @@ x = [1, 2, 3, 4, 5, 6]
 import os
 clear = lambda: os.system('cls')
 clear()
+
+----pandas-----
+#ytnax to access a particular row and column in pandas
+df.iloc[<row index>, param_groupdf.columns.get_loc('columns name')] = asignvalue
+param_groupdf.iloc[0, param_groupdf.columns.get_loc('columns name')] = asignvalue
+
+#add dataframe at the end
+param_groupdf = param_groupdf.append(param_groupdf.tail(1))
+ 
+#check whther a series contains the string
+if(True in (param_groupdf["Sign"].str.contains('Y', regex=False).values)):
  
