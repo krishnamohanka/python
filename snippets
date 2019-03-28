@@ -86,3 +86,17 @@ param_groupdf = param_groupdf.append(param_groupdf.tail(1))
 #check whther a series contains the string
 if(True in (param_groupdf["Sign"].str.contains('Y', regex=False).values)):
  
+ 
+#pandas create empty data frame without column names and add rows
+
+	
+# Create an completely empty Dataframe without any column names, indices or data
+dfObj = pd.DataFrame()
+dfObj['UserName'] = ['Riti', 'Aadi', 'Jack']
+dfObj['Name'] = ['Riti', 'Aadi', 'Jack']
+dfObj['Name'] = ['Riti', 'Aadi', 'Jack']
+ 
+print("Dataframe Contents ", dfObj, sep='\n')
+
+the above is from the following website
+https://thispointer.com/pandas-how-to-create-an-empty-dataframe-and-append-rows-columns-to-it-in-python/
