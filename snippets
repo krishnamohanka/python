@@ -80,7 +80,10 @@ def nearest(items, pivot):
         return min(items, key=lambda x: abs(x - pivot))
 
 ----pandas-----
-#ytnax to access a particular row and column in pandas
+#get the nearest number in column
+result = result.iloc[(result['RH']-400).abs().argsort()[:1]]
+
+#sytnax to access a particular row and column in pandas
 df.iloc[<row index>, param_groupdf.columns.get_loc('columns name')] = asignvalue
 param_groupdf.iloc[0, param_groupdf.columns.get_loc('columns name')] = asignvalue
 
